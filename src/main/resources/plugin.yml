@@ -1,0 +1,12 @@
+name: FreezeGUI
+version: '${project.version}'
+main: freezegui.freezegui.FreezeGUI
+api-version: 1.16
+description: This is a 1.16.5 based plugin which brings up a GUI on a freezed player, perfect for screensharing!
+commands:
+  freeze:
+    description: Freezes a player
+    permission: FreezeGUI.freeze
+  unfreeze:
+    description: UnFreezes a player
+    permission: FreezeGUI.unfreeze
