@@ -8,4 +8,4 @@ I originally started this plugin to learn Java further and because I couldn't fi
     • 1.16.5
 
 #### Any questions or ideas? Join our discord 
-    • Link 
+    • <a href="https://discord.com/invite/gKKq3TJagg" target="_blank"><img alt="discord" align="center" src="https://img.shields.io/badge/-Discord-0D1117?style=flat-square&logo=discord&logoColor=dark-blue"></a> 
