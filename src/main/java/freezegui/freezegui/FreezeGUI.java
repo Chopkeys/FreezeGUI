@@ -17,6 +17,6 @@ public final class FreezeGUI extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        System.out.println("FreezeGUI is shutting down");
     }
 }
