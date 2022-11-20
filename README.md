@@ -23,6 +23,8 @@
     <a href="https://github.com/Chopkeys/FreezeGUI/issues">Report Bug</a>
     ·
     <a href="https://github.com/Chopkeys/FreezeGUI/issues">Request Feature</a>
+    ·
+    <a href="https://discord.gg/gKKq3TJagg">Join Our Discord!</a>
   </p>
 </div>
 
