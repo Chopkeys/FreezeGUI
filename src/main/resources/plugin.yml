@@ -2,7 +2,7 @@ name: FreezeGUI
 version: '${project.version}'
 main: freezegui.freezegui.FreezeGUI
 api-version: 1.16
-description: This is a 1.16.5 based plugin which brings up a GUI on a freezed player, perfect for screensharing!
+description: This is a freeze command plugin that is perfect for any 1.16+ servers that want a good, reliable command to catch cheaters via Screenshare etc;
 commands:
   freeze:
     description: Freezes a player

@@ -1,20 +1,17 @@
 package freezegui.freezegui.commands;
-
+import freezegui.freezegui.util.FreezeFunc;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.Inventory;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
-
 import java.util.HashMap;
+import java.util.UUID;
 
 public class FreezeCommand implements CommandExecutor {
-    public static HashMap<Player, Boolean> hm = new HashMap<Player, Boolean>();
+    FreezeFunc Freeze = new FreezeFunc();
+    public static HashMap<UUID, Boolean> hm = new HashMap<>();
 
     @Override
 
@@ -23,24 +20,15 @@ public class FreezeCommand implements CommandExecutor {
             sender.sendMessage(ChatColor.RED + "Usage: /freeze <player>");
         }
 
-
         Player p = Bukkit.getPlayer(args[0]);
-
         if(p == null) sender.sendMessage(ChatColor.RED + "The specified player is either not online or doesn't exist");
-        Inventory GUI = Bukkit.createInventory(p, 9, "You have been frozen by staff");
+        UUID uuid = p.getUniqueId();
 
-        ItemStack item1 = new ItemStack(Material.PAPER, 1);
-        ItemMeta item1_meta = item1.getItemMeta();
-        item1_meta.setDisplayName("You have been frozen by staff, please look at your discord!");
-        item1.setItemMeta(item1_meta);
-        GUI.addItem(item1);
+        Freeze.Freeze(p, true);
 
-        System.out.println((p.getName()) + " has been frozen");
-        sender.sendMessage(ChatColor.GREEN + (p.toString()) + "has been frozen");
+        sender.sendMessage(ChatColor.GREEN + p.getName() + " has been frozen");
 
-        hm.put(p,true);
-
-        p.openInventory(GUI);
+        hm.put(uuid,true);
 
         return true;
     }
