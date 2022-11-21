@@ -28,18 +28,14 @@
   </p>
 </div>
 
-## Roadmap
+<div align="center">
+<h3>Roadmap</h3>
 
-[✅] Putting this on Spigot (https://www.spigotmc.org/resources/freezegui.106360/)
-
-[❌] Make it more customizable
-
-[❌]Saving data/hashmap to a file
-
+[✅] Putting this on Spigot (https://www.spigotmc.org/resources/freezegui.106360/) </br>
+[❌] Make it more customizable </br>
+[❌]Saving data/hashmap to a file </br>
+</br>
 See the [open issues](https://github.com/Chopkeys/FreezeGUI/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 [contributors-shield]: https://img.shields.io/github/contributors/Chopkeys/FreezeGUI.svg?style=for-the-badge
 [contributors-url]: https://github.com/Chopkeys/FreezeGUI/graphs/contributors
