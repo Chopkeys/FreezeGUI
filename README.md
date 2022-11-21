@@ -31,6 +31,7 @@
 ## Roadmap
 
 [✅] Putting this on Spigot (https://www.spigotmc.org/resources/freezegui.106360/)
+
 [❌] Make it more customizable
 [❌]Saving data/hashmap to a file
 
