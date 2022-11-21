@@ -12,14 +12,12 @@
   <p align="center">
     This is a minecraft Spigot plugin with its sole use being to provide a high quality Freeze command to as many 1.16+ servers as possible
     <br />
-    <br />
+    </br>
     Currently the versions supported are 1.16.~, 1.17.~, 1.18.~ and 1.19.~ 
     <br />
-    <br />
-    <br />
+    </br>
     <a href="https://github.com/Chopkeys/FreezeGUI"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
+    </br>
     <a href="https://github.com/Chopkeys/FreezeGUI/issues">Report Bug</a>
     ·
     <a href="https://github.com/Chopkeys/FreezeGUI/issues">Request Feature</a>
