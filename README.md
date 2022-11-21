@@ -30,9 +30,9 @@
 
 ## Roadmap
 
-- [ ] Saving data/hashmap to a file
 - [✅] Putting this on Spigot
-- [ ] Make it more customizable
+- [❌] Make it more customizable
+- [❌]Saving data/hashmap to a file
 
 See the [open issues](https://github.com/Chopkeys/FreezeGUI/issues) for a full list of proposed features (and known issues).
 
