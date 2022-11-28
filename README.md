@@ -31,7 +31,6 @@
 
 [✅] Putting this on Spigot (https://www.spigotmc.org/resources/freezegui.106360/) </br>
 [❌] Make it more customizable </br>
-[❌]Saving data/hashmap to a file </br>
 </br>
 See the [open issues](https://github.com/Chopkeys/FreezeGUI/issues) for a full list of proposed features (and known issues).
 
