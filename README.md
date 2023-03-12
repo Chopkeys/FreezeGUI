@@ -12,14 +12,12 @@
   <p align="center">
     This is a minecraft Spigot plugin with its sole use being to provide a high quality Freeze command to as many 1.16+ servers as possible
     <br />
-    <br />
+    </br>
     Currently the versions supported are 1.16.~, 1.17.~, 1.18.~ and 1.19.~ 
     <br />
-    <br />
-    <br />
+    </br>
     <a href="https://github.com/Chopkeys/FreezeGUI"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
+    </br>
     <a href="https://github.com/Chopkeys/FreezeGUI/issues">Report Bug</a>
     ·
     <a href="https://github.com/Chopkeys/FreezeGUI/issues">Request Feature</a>
@@ -28,16 +26,13 @@
   </p>
 </div>
 
-## Roadmap
+<div align="center">
+<h3>Roadmap</h3>
 
-- [ ] Saving data/hashmap to a file
-- [ ] Putting this on Spigot
-- [ ] Make it more customizable
-
+[✅] Putting this on Spigot (https://www.spigotmc.org/resources/freezegui.106360/) </br>
+[❌] Make it more customizable </br>
+</br>
 See the [open issues](https://github.com/Chopkeys/FreezeGUI/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 [contributors-shield]: https://img.shields.io/github/contributors/Chopkeys/FreezeGUI.svg?style=for-the-badge
 [contributors-url]: https://github.com/Chopkeys/FreezeGUI/graphs/contributors
