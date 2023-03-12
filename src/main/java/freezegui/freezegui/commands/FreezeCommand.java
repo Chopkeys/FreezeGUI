@@ -24,7 +24,7 @@ public class FreezeCommand implements CommandExecutor {
         if(p == null) sender.sendMessage(ChatColor.RED + "The specified player is either not online or doesn't exist");
         UUID uuid = p.getUniqueId();
 
-        Freeze.Freeze(p, true);
+        Freeze.Freeze(p, true, false);
 
         sender.sendMessage(ChatColor.GREEN + p.getName() + " has been frozen");
 
